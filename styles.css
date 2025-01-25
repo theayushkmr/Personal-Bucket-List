@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding:20px;
+}
+
+header {
+    background: #375c89;
+    color: #f0f0f0;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #375e89;
+    margin-bottom: 15px;
+}
+
+.bucket-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bucket-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+}
+
+
+.completed {
+    color: rgb(55, 196, 55);
+    font-weight: bold;
+    text-align:justify
+  }
+  
+  .in-progress {
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .pending {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .bucket-list li {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
